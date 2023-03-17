@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+# export DH_VERBOSE=1
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_configure:
+	rm -rf debian/build
+	mkdir debian/build 
+	./autogen.sh  --noconfigure
+	./configure --enable-refcode-download --prefix=$(pwd)/debian/build
+
+override_dh_auto_build:
+	make
+	make install

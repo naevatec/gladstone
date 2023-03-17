@@ -1,9 +1,9 @@
 AC_INIT
 
 dnl versions of gstreamer and plugins-base
-GST_MAJORMINOR=1.0
-GST_REQUIRED=1.0
-GSTPB_REQUIRED=1.0
+GST_MAJORMINOR=1.5
+GST_REQUIRED=1.5
+GSTPB_REQUIRED=1.5
 
 dnl fill in your package name and version here
 dnl the fourth (nano) number should be 0 for a release, 1 for CVS,

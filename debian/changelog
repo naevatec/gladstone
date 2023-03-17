@@ -1,0 +1,11 @@
+kms-gladstone (1.0.0) testing; urgency=medium
+
+  * Release 1.0.0
+
+ -- Saul Pablo Labajo Izquierdo  Tue, 14 Mar 2023 12:30:01 +0200
+
+kms-gladstone (0.0.1~rc1) testing; urgency=medium
+
+  * Initial release.
+
+ -- Saul Pablo Labajo Izquierdo  Wed, 9 Oct 2019 12:30:01 +0200
