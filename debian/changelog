@@ -1,3 +1,9 @@
+kurento-gladstone (1.1.0.0ubuntu2) testing; urgency=medium
+
+  * Prepare release 1.1.0.0ubuntu1
+
+ -- Kurento <kurento@openvidu.io>  Wed, 26 Apr 2023 09:14:07 +0000
+
 kurento-gladstone (1.0.0) testing; urgency=medium
 
   * Release 1.0.0
