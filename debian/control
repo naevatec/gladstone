@@ -1,37 +1,28 @@
-Source: kms-gladstone
+Source: kurento-gladstone
 Maintainer: NaevaTec <info@naevatec.com>
 Priority: optional
 Build-Depends: debhelper (>= 9),
  cmake,
- pkg-config,
- kms-core-dev (>= 6.17.0),
- kms-elements-dev (>= 6.17.0),
- kms-filters-dev (>= 6.17.0),
+ pkg-config
 Standards-Version: 4.0.0
 Homepage: www.kurento.org
 Vcs-Browser: https://
 Vcs-Git: https://
 
-Package: kms-gladstone
+Package: kurento-gladstone
 Architecture: any
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends},
- kms-core (>= 6.17.0),
- kms-elements (>= 6.17.0),
- kms-filters (>= 6.17.0)
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Kurento GladStone G729 codec
 
-Package: kms-gladstone-dev
+Package: kurento-gladstone-dev
 Architecture: any
 Section: libdevel
-Depends: kms-gladstone (= ${binary:Version}),
- kms-core-dev (>= 6.17.0),
- kms-elements-dev (>= 6.17.0),
- kms-filters-dev (>= 6.17.0),
+Depends: kurento-gladstone (= ${binary:Version})
 Description: Kurento GladStone G729 codec - Development files
 
-Package: kms-gladstone-dbg
+Package: kurento-gladstone-dbg
 Architecture: any
 Section: debug
-Depends: kms-gladstone (= ${binary:Version})
+Depends: kurento-gladstone (= ${binary:Version})
 Description: Kurento GladStone G729 codec - Debug symbols

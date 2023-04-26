@@ -1,2 +1,2 @@
 #!/bin/sh
-./autogen.sh  $@
+./autogen.sh --noconfigure $@
